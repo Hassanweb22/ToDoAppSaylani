@@ -1,0 +1,189 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&family=Vollkorn:ital,wght@0,500;1,400;1,500;1,600&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&family=Vollkorn:ital,wght@0,500;1,400;1,500;1,600;1,669&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Sora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&family=Lobster&family=Merriweather:ital,wght@1,700&family=Sora:wght@600&display=swap');
+
+/* {margin: 0;
+    padding: 0;
+} */
+
+
+/* @media screen and(max-width:380px) {
+    input[type="text"].placeholder {
+        font-size: 10px !important;
+    }
+} */
+
+body {
+    background: linear-gradient(-90deg,rgb(0, 0, 0),rgb(61, 61, 61));
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    
+}
+input {
+    text-transform: capitalize;
+}
+
+h1 {
+    /* font-family: 'Sora', sans-serif;
+    font-family: 'Grenze Gotisch', cursive;
+    font-family: 'Merriweather', serif; */
+    font-family: 'Lobster', cursive;
+    font-style: italic; 
+}
+
+.table {
+    background-color: white;
+    padding-left: 0;
+}
+label {
+    color: rgb(141, 140, 138);
+}
+
+h1 .badge {
+    margin-bottom: -100px !important;
+}
+
+.btndiv {
+    box-sizing: content-box;
+}
+
+thead {
+    box-sizing: border-box;
+    background-color:  #ff9c2b;
+    border: none !important;
+    outline: none !important;
+    color: rgb(20, 20, 20);
+    border:none !important;
+    outline: none !important;
+}
+
+table th {
+    border: none;
+    
+}
+
+.remove {
+    cursor: pointer;
+}
+
+
+.todo{
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.app{
+    color:rgb(141, 140, 138) !important;
+    background-color: #444444 ;
+    font-weight: bold;
+}
+
+.btn-first {
+    /* background-color: #FF9800; */
+    /* color: black; */
+    font-weight: bold;
+  transition: 0.5s;
+  background-color: rgb(29, 28, 28);
+  color: #FF9800;
+  border: 2px solid #FF9800;
+  font-family: 'Lobster', cursive;
+
+}
+.btn-first:hover {
+    background-color: #FF9800;
+    color: black;
+    border: 2px solid #FF9800;
+} 
+
+/* .btn-first:active{
+    border: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+} */
+
+.btn-second {
+    background-color: #FF9800;
+    color: black;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s;
+    background-color: rgb(29, 28, 28);
+    color: #FF9800;
+    border: 2px solid #FF9800;
+    font-family: 'Lobster', cursive;
+
+}
+.btn-second:hover {
+    background-color: #FF9800;
+    color: black;
+    border: 2px solid #FF9800;
+}
+
+/* .btn-second:active{
+    border: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+} */
+
+/* edit image setting */
+.edit-image {
+    width: 30px;
+    height: 25px;
+    /* padding-left: 5px; */
+    cursor: pointer;
+}
+
+#tbody {
+    box-shadow: 5px 10px 18px #d69431;
+}
+
+/* .descr_td, .title_td {
+    box-sizing: border-box;
+} */
+
+/* Inputs ki setting */
+.para, .para_desc {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px solid #343A40;
+}
+
+td .descr_td {
+    text-align: center;
+}
+.table td,.table th {
+    vertical-align: inherit;
+    text-align: center;
+}
+
+textarea:focus, .para:focus, .para_desc:focus{
+    outline: none;
+}
+
+
+@media only screen and (max-width:565) {
+    .form-control {
+        font-size: 1rem !important;
+    }
+}
+
+@media screen and (max-width:568px) {
+    td .maindiv {
+        width: max-content;
+    }
+}
+
+/* 
+table tr:not(.header):hover{
+    background-color: #EBE9E2;
+} */
+/* 
+table, td {
+    box-sizing: border-box;
+    overflow: scroll;
+} */
+
+

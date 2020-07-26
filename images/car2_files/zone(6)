@@ -1,0 +1,60 @@
+(function() {
+  var ins_41956688 = document.getElementById('friendly_16725879').parentNode;  var iframe_41956688 = document.createElement('iframe');
+  iframe_41956688.setAttribute('id', 'friendly_41956688');
+  iframe_41956688.setAttribute('allowtransparency', 'true');
+  iframe_41956688.setAttribute('scrolling', 'no');
+  iframe_41956688.setAttribute('style', 'margin:0; padding:0; width:728px; height:90px; border:0; overflow:hidden; vertical-align:bottom');
+  iframe_41956688.setAttribute('sandbox', 'allow-forms allow-popups allow-popups-to-escape-sandbox allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation-by-user-activation');
+  ins_41956688.appendChild(iframe_41956688);
+  var iframeDocument_41956688 = (iframe_41956688.contentWindow) ? iframe_41956688.contentWindow.document : (iframe_41956688.contentDocument || iframe_41956688.document);
+  iframeDocument_41956688.open();
+  iframeDocument_41956688.write('<body style="margin:0; padding:0; overflow:hidden"><div style="width:728px; height:90px"><div id=\"friendly_41956688\" data-zid=\"234\"></div>\r\n\r\n<scr'+'ipt type=\"text/javascript\">\r\n(function() {\r\n  try { window.__cmp = (window.__cmp || window.parent.__cmp); } catch (e) { }\r\n  var wrapperIframe = document.createElement(\"iframe\");\r\n  wrapperIframe.setAttribute(\"id\", \"friendly_41956688_Loader\");\r\n  wrapperIframe.setAttribute(\"allowtransparency\", \"true\");\r\n  wrapperIframe.setAttribute(\"scrolling\", \"no\");\r\n  wrapperIframe.setAttribute(\"style\", \"position: absolute; margin:0; padding:0; width:1px; height:1px; border:0; overflow:hidden; display: none\");\r\n  document.getElementById(\'friendly_41956688\').appendChild(wrapperIframe);\r\n  var wrapperDocument = (wrapperIframe.contentWindow) ? wrapperIframe.contentWindow.document : (wrapperIframe.contentDocument || wrapperIframe.document);\r\n  var wrapperWindow = (wrapperIframe.contentWindow || wrapperIframe.window);\r\n  wrapperDocument.open();\r\n  wrapperDocument.write(\'<scr\'+\'ipt async src=\"https://ads.bidstreamserver.com/js/prebid-bidstream-2.44.7.js\" type=\"text/javascript\"></scr\'+\'ipt>\');\r\n  wrapperDocument.close();\r\n  wrapperWindow.adUnitCode = \'friendly_41956688\';\r\n  wrapperWindow.adUnits = [{\r\n    code: wrapperWindow.adUnitCode,\r\n    mediaTypes: {\r\n      banner: {\r\n        sizes: [[728,90]]\r\n      }\r\n    },\r\n    sizes: [[728,90]],\r\n    bids: [{\"bidder\":\"appnexus\",\"params\":{\"placementId\":\"19186737\"}},{\"bidder\":\"openx\",\"params\":{\"unit\":\"541064806\",\"delDomain\":\"mediadojo-d.openx.net\"}},{\"bidder\":\"sovrn\",\"params\":{\"tagid\":\"717102\"}},{\"bidder\":\"sonobi\",\"params\":{\"placement_id\":\"2f2b350a2ce72e28d355\"}},{\"bidder\":\"33across\",\"params\":{\"siteId\":\"cXQ7M6Hxyr6R8DaKlId8sQ\",\"productId\":\"siab\"}},{\"bidder\":\"aol\",\"params\":{\"placement\":\"5211801\",\"network\":\"11718.1\"}},{\"bidder\":\"rubicon\",\"params\":{\"accountId\":\"17544\",\"siteId\":\"326286\",\"zoneId\":\"1697408\"}},{\"bidder\":\"ix\",\"params\":{\"siteId\":\"495604\",\"size\":[728,90]}}]\r\n  }];\r\n  try { wrapperWindow.__cmp = (window.__cmp || window.parent.__cmp); } catch (e) { }\r\n  wrapperWindow.pbjs = wrapperWindow.pbjs || {};\r\n  wrapperWindow.pbjs.que = wrapperWindow.pbjs.que || [];\r\n  wrapperWindow.pbjs.que.push(function() {\r\n    wrapperWindow.pbjs.bidderSettings = {\n\"openx\": { bidCpmAdjustment : function(bidCpm, bid) { return (bidCpm * 0.9); } },\"rubicon\": { bidCpmAdjustment : function(bidCpm, bid) { return (bidCpm * 0.7); } }\n};\nwrapperWindow.pbjs.setConfig({ publisherDomain: \"https://google.com\", priceGranularity: \"high\", userSync: { iframeEnabled: true, filterSettings: { iframe: { bidders: \'*\', filter: \'include\' } } }, schain: {\r\n  \"validation\": \"strict\",\r\n  \"config\": {\r\n    \"ver\":\"1.0\",\r\n    \"complete\": 1,\r\n    \"nodes\": [{\r\n      \"asi\":\"bidstreammedia.com\", \"sid\":\"36\", \"hp\":1\r\n    }]\r\n  }\r\n} });\r\n    wrapperWindow.pbjs.aliasBidder(\'appnexus\', \'helloearth\');\r\n    wrapperWindow.pbjs.addAdUnits(wrapperWindow.adUnits);\r\n    wrapperWindow.setTimeout(function() { wrapperWindow.initAdserver(); }, 2500);\r\n    wrapperWindow.pbjs.requestBids({\r\n      bidsBackHandler: wrapperWindow.initAdserver\r\n    });\r\n  });\r\n  wrapperWindow.getWinUrl = function(bidResponse) {\r\n    var url = \"https://ads.bidstreamserver.com/servlet/view/banner/javascript/media?mid=0&cid=310&pid=1&zid=234&uuid=4593859c1ad28da03b549ef2c5a958db&random=79963720&random=42903837&millis=20200718135901&hb_request={REQUESTID}&hb_bidder={BIDDER}&hb_cpm={CPM}&hb_adid={HBADID}&hb_dealid={DEALID}&hb_size={SIZE}&hb_friendly=friendly_41956688&resolution=unspecified&refresh_count=0&rmpid=true&referrer=https%3A%2F%2Fgoogle.com%2F\";\r\n    url = url.replace(\'{REQUESTID}\', \'27687909\');\r\n    url = url.replace(\'{BIDDER}\', bidResponse.bidderCode);\r\n    url = url.replace(\'{CPM}\', bidResponse.cpm);\r\n    url = url.replace(\'{HBADID}\', bidResponse.adId);\r\n    url = url.replace(\'{SIZE}\', bidResponse.size);\r\n    if (\'dealId\' in bidResponse && typeof bidResponse.dealId !== \'undefined\') { url = url.replace(\'{DEALID}\', bidResponse.dealId); }\r\n    return url;\r\n  };\r\n  wrapperWindow.getFailUrl = function(bidCount) {\r\n    var url = \"https://ads.bidstreamserver.com/servlet/view/banner/javascript/zone?pid=1&zid=234&uuid=4593859c1ad28da03b549ef2c5a958db&random=65816699&millis=20200718135901&hb_request={REQUESTID}&hb_error={ERRCODE}&friendly=friendly_41956688&resolution=unspecified&refresh_count=0&rmpid=true&referrer=https%3A%2F%2Fgoogle.com%2F\";\r\n    url = url.replace(\'{REQUESTID}\', \'27687909\');\r\n    url = url.replace(\'{ERRCODE}\', (bidCount > 0 ? \'decline\' : \'timeout\'));\r\n    return url;\r\n  };\r\n  wrapperWindow.initAdserverCalled = false;\r\n  wrapperWindow.initAdserver = function() {\r\n    if (!wrapperWindow.initAdserverCalled) {\r\n      wrapperWindow.initAdserverCalled = true;\r\n      var bidResponses = wrapperWindow.pbjs.getHighestCpmBids(wrapperWindow.adUnitCode);\r\n      if (bidResponses && bidResponses.length > 0 && (0.01 <= 0.00 || bidResponses[0].cpm >= 0.01)) {\r\n        var bidResponse = bidResponses[0];\r\n        var bidIframe = document.createElement(\"iframe\");\r\n        bidIframe.setAttribute(\"id\", wrapperWindow.adUnitCode + \"_Creative\");\r\n        bidIframe.setAttribute(\"allowtransparency\", \"true\");\r\n        bidIframe.setAttribute(\"scrolling\", \"no\");\r\n        bidIframe.setAttribute(\"style\", \"position: relative; margin:0; padding:0; width:\"+bidResponse.width+\"px; height:\"+bidResponse.height+\"px; border:0; overflow:hidden\");\r\n        bidIframe.setAttribute(\"sandbox\", \"allow-forms allow-popups allow-popups-to-escape-sandbox allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation-by-user-activation\");\r\n        wrapperWindow.parent.document.getElementById(\'friendly_41956688\').appendChild(bidIframe);\r\n        var bidIframeDoc = (bidIframe.contentWindow) ? bidIframe.contentWindow.document : (bidIframe.contentDocument || bidIframe.document);\r\n        bidIframeDoc.open();\r\n        bidIframeDoc.write(\'<scr\'+\'ipt src=\"\'+wrapperWindow.getWinUrl(bidResponse)+\'\" type=\"text/javascript\"></scr\'+\'ipt>\');\r\n        bidIframeDoc.close();\r\n      }\r\n      else {\r\n        var insTag = document.createElement(\'ins\');\r\n        insTag.setAttribute(\"id\", \"friendly_41956688\");\r\n        wrapperWindow.parent.document.getElementById(\'friendly_41956688\').appendChild(insTag);\r\n        var fallbackLoader = document.createElement(\'script\');\r\n        fallbackLoader.type = \'text/javascript\';\r\n        fallbackLoader.async = true;\r\n        fallbackLoader.src = wrapperWindow.getFailUrl((bidResponses && bidResponses.length > 0) ? bidResponses.length : 0);\r\n        var firstScriptTag = wrapperWindow.parent.document.getElementsByTagName(\'script\')[0];\r\n        firstScriptTag.parentNode.insertBefore(fallbackLoader, firstScriptTag);\r\n      }\r\n    }\r\n  };\r\n})();\r\n</scr'+'ipt></div></body>');
+    iframeDocument_41956688.close();
+  document.Refresh_Page = function() {
+    if ('context' in window && 'hidden' in window.context) {
+      return !window.context.hidden;
+    }
+    var getHiddenProp = function() {
+      var prefixes = ['webkit','moz','ms','o'];
+      if ('hidden' in document) return 'hidden';
+      for (var i = 0; i < prefixes.length; i++){
+        if ((prefixes[i] + 'Hidden') in document) { return prefixes[i] + 'Hidden'; }
+      }
+      return null;
+    };
+    var prop = getHiddenProp();
+    return (prop) ? !document[prop] : true;
+  };
+  var Refresh_41956688_Last = new Date().getTime();
+  document.Refresh_Viewable = ('Refresh_Viewable' in document) ? document.Refresh_Viewable : false;
+  (function() {
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function(entries) {
+        for (var i = 0; i < entries.length; i++) {
+          document.Refresh_Viewable = (document.Refresh_Page() && entries[i].intersectionRatio >= 0.5) ? true : false;
+        }
+      }, { threshold: [0.5] });
+      io.observe(iframe_41956688);
+      document.Refresh_IO = io;
+    }
+  })();
+  var Refresh_41956688_Interval = function() {
+    return (document.Refresh_Viewable === true) ? 31000 : 31000;
+  };
+  var Refresh_41956688 = function() {
+    if ((new Date().getTime() - Refresh_41956688_Last) < Refresh_41956688_Interval()) { return; }
+    clearInterval(Refresh_41956688_Timer);
+    Refresh_41956688_Last = new Date().getTime();
+    if ('Refresh_IO' in document) { document.Refresh_IO.unobserve(iframe_41956688); }
+    iframe_41956688.style.display = 'none';
+    var s = document.createElement('script'); s.type = 'text/javascript';
+    s.src = 'https://ads.bidstreamserver.com/servlet/view/banner/javascript/zone?zid=234&pid=0&fr=31&frcn=1&frlm=75&friendly=friendly_41956688&random=37100563&referrer=https%3A%2F%2Fgoogle.com%2F';
+    s.onload = function() { setTimeout(function() { iframe_41956688.parentNode.removeChild(iframe_41956688); iframe_41956688.src = 'about:blank'; }, 1500); };
+    ins_41956688.appendChild(s);
+};
+  var Refresh_41956688_Message = function (event) {
+    if (event && event.data && event.data.indexOf && typeof event.data.indexOf === 'function' && event.data === 'Refresh_41956688') { Refresh_41956688(); }
+  };
+  window.addEventListener('message', Refresh_41956688_Message, false);
+  var Refresh_41956688_Timer = setInterval(Refresh_41956688, 1000);
+})();
